@@ -12,6 +12,7 @@
 		8965D6881F642C9F00641417 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8965D6871F642C9F00641417 /* Monster.swift */; };
 		8965D68A1F6431A100641417 /* Zombie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8965D6891F6431A100641417 /* Zombie.swift */; };
 		8965D68C1F64364300641417 /* ZombieBoss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8965D68B1F64364300641417 /* ZombieBoss.swift */; };
+		8965D68E1F643A2200641417 /* Vampire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8965D68D1F643A2200641417 /* Vampire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		8965D6871F642C9F00641417 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 		8965D6891F6431A100641417 /* Zombie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zombie.swift; sourceTree = "<group>"; };
 		8965D68B1F64364300641417 /* ZombieBoss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZombieBoss.swift; sourceTree = "<group>"; };
+		8965D68D1F643A2200641417 /* Vampire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vampire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				8965D6871F642C9F00641417 /* Monster.swift */,
 				8965D6891F6431A100641417 /* Zombie.swift */,
 				8965D68B1F64364300641417 /* ZombieBoss.swift */,
+				8965D68D1F643A2200641417 /* Vampire.swift */,
 			);
 			path = MonsterTown;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			files = (
 				8941EED41F5F88700045F158 /* main.swift in Sources */,
 				8965D68C1F64364300641417 /* ZombieBoss.swift in Sources */,
+				8965D68E1F643A2200641417 /* Vampire.swift in Sources */,
 				8965D68A1F6431A100641417 /* Zombie.swift in Sources */,
 				8965D6881F642C9F00641417 /* Monster.swift in Sources */,
 				8941EEDB1F5F8B320045F158 /* Town.swift in Sources */,

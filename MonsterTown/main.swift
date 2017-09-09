@@ -11,6 +11,8 @@ import Foundation
 var myTown = Town()
 let genericMonster = Monster()
 let fredTheZombie = Zombie()
+let theVampire = Vampire()
+
 // we will use a instance method instead
 //print("Population: \(myTown.population), number of stoplights: \(myTown.numberOfStoplights)")
 
@@ -23,3 +25,9 @@ myTown.changePopulation(by: 500)
 fredTheZombie.town = myTown
 fredTheZombie.terrorizeTown()
 fredTheZombie.town?.printDescription()
+
+theVampire.town = myTown
+theVampire.terrorizeTown()
+theVampire.town?.printDescription()
+theVampire.terrorizeTown()
+print(theVampire.vampire.count)
