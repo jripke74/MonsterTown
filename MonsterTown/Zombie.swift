@@ -11,8 +11,13 @@ import Foundation
 class Zombie: Monster {
     var walksWithLimp = true
     
-    override func terrorizeTown() {
-        town?.changePopulation(by: -10)
-        super.terrorizeTown()
+    // use final to indicate to prevent overiding in subclasses of Zobie
+    final override func terrorizeTown() {
+        if (town?.population)! >= 10{
+            town?.changePopulation(by: -10)
+            super.terrorizeTown()
+        } else {
+            town?.population = 0
+        }
     }
 }
