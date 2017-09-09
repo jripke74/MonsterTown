@@ -12,4 +12,8 @@ struct Town {
     // properties
     var population = 5_422
     var numberOfStoplights = 4
+    
+    func printDescription() {
+        print("Population: \(myTown.population), number of stoplights: \(myTown.numberOfStoplights)")
+    }
 }

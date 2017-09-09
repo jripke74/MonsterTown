@@ -8,3 +8,9 @@
 
 import Foundation
 
+var myTown = Town()
+
+// we will use a instance method instead
+//print("Population: \(myTown.population), number of stoplights: \(myTown.numberOfStoplights)")
+
+myTown.printDescription()
