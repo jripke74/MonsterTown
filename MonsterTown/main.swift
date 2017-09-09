@@ -14,3 +14,5 @@ var myTown = Town()
 //print("Population: \(myTown.population), number of stoplights: \(myTown.numberOfStoplights)")
 
 myTown.printDescription()
+myTown.changePopulation(by: 500)
+myTown.printDescription()
