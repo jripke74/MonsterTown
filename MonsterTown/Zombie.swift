@@ -9,6 +9,9 @@
 import Foundation
 
 class Zombie: Monster {
+    override class var spookyNoise: String {
+        return "Brains..."
+    }
     var walksWithLimp = true
     
     // use final to indicate to prevent overiding in subclasses of Zobie
