@@ -37,4 +37,4 @@ print(theVampire.vampire.count)
 
 print("Victim pool: \(fredTheZombie.victimPool)")
 fredTheZombie.victimPool = 500
-print("Victim pool: \(fredTheZombie.victimPool); population: \(String(describing: fredTheZombie.town?.population))")
+print("Victim pool: \(fredTheZombie.victimPool)")
